@@ -1,0 +1,44 @@
+#getstart{
+    background-color: #29303b;
+    color: $color-second;
+    margin-top: 30px;
+    .start{
+        border-top: 8px solid #EC5252;
+        .item__top{
+            @include item();  
+        }
+        .item__center{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2rem;
+            .col-md-3{
+                .icon1{
+                    margin-top: 40px;
+                    padding-left: 185px;
+                }
+            }
+            .col-md-6{
+
+                h3{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    padding-bottom: 10px;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+            .col-md-3{
+                .icon2{
+                    margin-top: 40px;
+                    padding-right: 185px;
+                }
+            }
+        }
+        .item__bot{
+            @include item();
+            padding-bottom: 30px;
+        }
+
+    }
+}

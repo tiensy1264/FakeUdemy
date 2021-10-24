@@ -1,0 +1,25 @@
+#goat{
+    background-color: #f2f3f5;
+    margin: 40px 0;
+    .goat__item{
+        border: 1px solid #e8e9eb;
+        background-color: #fff;
+        padding: 24px;
+        margin: 30px 0;
+        img{
+            padding: 0 20px 40px 0 ;
+        }
+        .goat__text{
+            padding-top: 10px;
+            
+            h5{
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            h6{
+                font-size: 1rem;
+                color: #686f7a;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+header{
+    .header__left{
+        align-items: center;
+
+        a{
+            flex-grow: 1;
+            img{
+                width: 200px;
+            }
+            
+        }
+        .categories{
+            flex-grow: 1;
+            color: #8a92a3;
+        }
+        form{
+            flex-grow: 5;
+            @include formSearch();
+        }
+    }
+    .header__right{
+        
+        .btn-login{
+            border: 1px solid black;
+        }
+    }
+}

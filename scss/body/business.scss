@@ -1,0 +1,36 @@
+#business{
+    padding-top: 15px;
+    .col-md-4{
+        padding: 150px 0;
+        h3{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    .col-md-8{
+        
+        .button__nav{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #eeeeee;
+            btn{
+                text-align: left;
+                white-space: normal;
+                width: inherit;
+                
+            }
+            button{
+                &:focus{
+                    border-bottom: 5px solid blue;
+                    box-shadow: none;
+                }
+            }
+        }
+        .business__item{
+            @include cart();
+        }
+    }
+}
+.slick-prev::before,.slick-next::before{
+    color: orange !important;
+  }   

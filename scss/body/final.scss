@@ -1,0 +1,35 @@
+footer{
+    border-bottom: 5px solid $color-primary;
+    padding: 0 30px;
+    font-size: 0.8rem;
+    .top_lane{
+        padding-bottom: 40px;
+        .col-md-3{
+            a{
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+        }
+        .toplane_four{
+            text-align: end;
+            .mucDoHaiLong{
+                padding: 5px 20px;
+            }
+        }
+    }
+    .bot_lane{
+        margin: 30px 0;
+        img{
+            width: 100px;
+        }
+        p{
+            padding-left: 20px;
+            padding-top: 15px;
+        }
+        .botlane_two{
+            padding-top: 17px;
+            text-align: end;
+            
+        }
+    }
+}

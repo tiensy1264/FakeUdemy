@@ -1,0 +1,72 @@
+@mixin formSearch {
+
+        
+        .input-group{
+            border: 1px solid #eeeeee;
+        }
+        input{
+            border: transparent;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        i{
+            background-color: $color-second;
+            padding: 10px;
+            color: $color-primary;
+            transition: all 0.5s;
+            &:hover{
+                background-color: $color-primary;
+                color: $color-second;
+                cursor: pointer;
+            }
+    }
+}
+@mixin cart {
+    margin-top: 15px;
+    margin-right: 15px;
+            .item_top{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .bestseller{
+                    position: absolute;
+                    top: 10%;
+                    background-color: $color-th;
+                    h6{
+                        padding-left: 5px;
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .item_bot{
+                text-align: center;
+                h4{
+                    font-size: 1rem;
+                    font-weight: bold;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    color: #1d18188c;
+                }
+                .rating{
+                    i{
+                        font-size: 0.7rem;
+                        color: $color-th;
+                    }
+                }
+                .detail{
+                    margin-top: 8px;
+                    padding-left: 90px;
+                }
+            }
+        
+}
+@mixin item {
+            display: flex;
+            justify-content: space-around;
+            font-size: 2rem;
+            margin-top: 50px; 
+            align-items: center;
+}
